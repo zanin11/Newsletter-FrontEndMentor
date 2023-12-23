@@ -1,0 +1,93 @@
+#email_usuario{
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 6px 6px 6px 6px;
+    width: 250px;
+}
+body{
+    background-color: hsl(234, 29%, 20%);
+    display: flex;
+    flex-direction: column;
+}
+#principal{
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFF;
+    height: 550px;
+    width: 680px; 
+    margin-top: 37px;
+    margin-left: 370px;  
+    justify-content: center;
+}
+#confirmacao{
+    margin-top: 100px;
+    margin-left: 540px;
+    width: 340px;
+    height: 400px;
+    padding-left: 30px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #FFF;
+    margin-top: 37px;
+    display: flex;
+    flex-direction: column;
+   
+}
+#image-confirmation{
+    margin-top: 20px;
+}
+#junto_imagem{
+    display: flex;
+    flex-direction: row;
+}
+#pontos{
+    justify-content: start;
+    align-items: start;
+    align-self: start;
+    align-content: start;
+    justify-items: start;
+    padding-right: 5px;
+}
+#image{
+    align-items: end;
+    margin-bottom: 300px;
+}
+#ponto1, #ponto2,#ponto3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#texto{
+    margin-left: 10px;
+}
+h1{
+    margin-right: 210px;
+}
+#button, #button-dismiss{
+    background-color: hsl(234, 29%, 20%);
+    color: #FFF;
+    border-color: beige;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 6px 6px 6px 6px;
+    width: 275px;
+}
+#button:hover, #button-dismiss:hover{
+    background-color: rgb(3, 3, 122);
+}
+#button-dismiss{
+    margin-left: 10px;
+}
+.attribution{
+    color: #FFF;
+    margin-right: 130px;
+    margin-top: 40px;
+}
+#image{
+    justify-content: center;
+}
+#confirmacao{
+    display: none;
+}
